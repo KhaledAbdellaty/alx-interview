@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 A module that transposing the matrix and then reversing
 each row to achieve a 90-degree clockwise rotation.
