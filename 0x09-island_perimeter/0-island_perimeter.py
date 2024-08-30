@@ -15,7 +15,8 @@ def island_perimeter(grid):
     Algorithm:
     1. Iterate through each cell in the grid.
     2. If a cell is land (1), check its four adjacent cells.
-    3. For each adjacent cell that is water or out of bounds, add 1 to the perimeter.
+    3. For each adjacent cell that is water or out of bounds,
+        add 1 to the perimeter.
     4. Return the total perimeter.
     """
     if not grid or not grid[0]:
