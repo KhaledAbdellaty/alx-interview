@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 def isWinner(x, nums):
     """
     This function determines the winner of the prime
