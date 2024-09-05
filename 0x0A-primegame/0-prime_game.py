@@ -12,7 +12,7 @@ def isWinner(x, nums):
         the starting set of numbers for each round.
 
     Returns:
-        str or none: A string indicating the winner 
+        str or none: A string indicating the winner
         ("Maria", "Ben", or "None" if winner cannot be determined),
         or None if there's a tie or invalid input.
     """
@@ -23,9 +23,10 @@ def isWinner(x, nums):
 
         Args:
             n (int): The upper limit of the range to check for primes.
-        
+
         Returns:
-            list: A boolean list where True at index i indicates that i is prime.
+            list: A boolean list where True at index i
+            indicates that i is prime.
         """
         primes = [True] * (n + 1)
         primes[0] = primes[1] = False
